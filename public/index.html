@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Timer</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
     <h1>Web Timer</h1>
     <div id="timer-display">00:00</div>
-    <button id="start">Start</button>
+    <button id="start" onclick="buzzVariety()">Start</button>
     <button id="stop">Stop</button>
     <button id="reset">Reset</button>
     <script src="/socket.io/socket.io.js"></script>
     <script src="client.js"></script>
+    <script src="notification.js"></script>
 </body>
 </html>
